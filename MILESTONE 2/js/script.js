@@ -1,12 +1,10 @@
-// Per i multipli di 3 stampi in console “Fizz” al posto del numero 
-// e per i multipli di 5 stampi in console Buzz.
-// Per i numeri che sono sia multipli di 3 che di 5 stampi
-// in console FizzBuzz.
+// Dato un container nel DOM, appendi un elemento
+// html con il numero o la stringa corretta.
 
-// Scrivo in console i numeri da 1 a 1000, poi ogni multiplo
-// di 3 scrivo izz e ogni multiplo di 5 scrivo Buzz.
+// Variabile Container
 const boxContainer = document.querySelector('.container');
 
+// Logica e Calcoli
 for(let i = 1; i <= 100; i++ ) {
 
     let fizzOrBuzz;
